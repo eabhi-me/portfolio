@@ -23,7 +23,7 @@ export default {
   position: relative;
   overflow: hidden;
   width: 100%;
-  margin: 0;
+  margin-top: 10px;
   padding: 0;
 }
 
@@ -774,7 +774,7 @@ export default {
 /* Responsive Design */
 @media (max-width: 768px) {
   .hero-container {
-    padding: 0 1.5rem;
+    padding: 1.5rem 1.5rem;
   }
 
   .hero-content {
@@ -859,7 +859,8 @@ export default {
 
 @media (max-width: 480px) {
   .hero-container {
-    padding: 0 1rem;
+    margin-top: 2.5rem;
+    padding: 2rem 1rem;
   }
 
   .hero-title {

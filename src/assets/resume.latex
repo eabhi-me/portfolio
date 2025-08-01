@@ -1,0 +1,190 @@
+%-------------------------
+% Resume in Latex
+% Author : Abhishek Yadav
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{wrapfig}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{cfr-lm}
+\usepackage[T1]{fontenc}
+
+% Formatting setup
+\setlength{\footskip}{4.08003pt} 
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\geometry{left=1cm, top=0.7cm, right=1cm, bottom=0.5cm}
+
+% Font setup
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{setspace}
+\setstretch{1}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-7pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item{
+    \textbf{#1}{\hspace{0.5mm}#2 \vspace{-0.5mm}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{0.5mm}\item
+  \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\footnotesize{#4}} \\
+      \textit{\footnotesize{#3}} & \footnotesize{#2}\\
+  \end{tabular*}
+  \vspace{-2.4mm}
+}
+
+\newcommand{\resumeProject}[4]{
+  \vspace{0.5mm}\item
+  \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\footnotesize{#3}} \\
+      \footnotesize{\textit{#2}} & \footnotesize{#4}
+  \end{tabular*}
+  \vspace{-2.4mm}
+}
+
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=3ex, rightmargin=2ex, noitemsep,labelsep=1.2mm,itemsep=0mm]\small}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2mm}}
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{center}
+    \textbf{\Huge Abhishek Yadav} \\
+    \vspace{2mm}
+    \small Bachelor of Engineering in Computer Science and Engineering | SLIET, Punjab\\
+    \vspace{1mm}
+    \footnotesize
+    \faPhone\ +91-7651854696 \hspace{5mm} 
+    \faEnvelope\ eabhi.me@gmail.com \hspace{5mm}
+    \faGithub\ \href{https://github.com/eabhi-me}{github.com/eabhi-me} \hspace{5mm}
+    \faLinkedin\ \href{https://www.linkedin.com/in/eabhi-me/}{linkedin.com/in/eabhi-me} 
+\end{center}
+
+%-----------PROFESSIONAL SUMMARY-----------
+\section{Professional Summary}
+\begin{itemize}[leftmargin=*]
+\item Results-driven \textbf{Computer Science} student with 2+ years of experience in \textbf{full-stack web development}. Proven ability to design and deploy scalable web applications using modern frameworks \textbf{(Flask, Vue.js)}. Specialized in creating database-driven solutions with \textbf{PostgreSQL and MongoDB}, and implementing \textbf{machine learning} features in practical applications. Passionate about building efficient systems with clean code and intuitive user experiences.
+\end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\begin{itemize}[leftmargin=*]
+    \resumeSubheading
+    {Web Development Manager at \href{https://brahamadevi.in/}{BDCI}}
+    \resumeSubheadingEnd
+    {Web Developer}{Part-Time Aug 2023 – Present}
+    \resumeItemListStart
+        \item Designed and deployed websites using GoDaddy hosting services
+        \item Increased enrollment by 40 percent by maintaining website functionality and improving user experience.
+    \resumeItemListEnd
+\end{itemize}
+
+%-----------PROJECTS-----------
+\section{Technical Projects}
+\begin{itemize}[leftmargin=*]
+    \resumeProject
+    {Quiz-Master WebApp | \href{https://github.com/eabhi-me/quiz-master-prep}{GitHub} | \href{https://quiz-master-dot-velvety-ring-456112-u3.el.r.appspot.com/}{Live}}{Dynamic multi-user quiz platform with teacher/student portals}{Feb 2025}
+    {Python, Flask, SQLite, JavaScript, Bootstrap}
+    \resumeItemListStart
+        \item Developed Flask-based quiz app with SQLite backend for efficient data storage
+        \item Implemented real-time scoring with performance summaries
+    \resumeItemListEnd
+    
+    \resumeProject
+    {Hospital Management System | \href{https://medecro-health-hack.vercel.app/}{Vercel}}{Web application for hospital operations}{Sep 2024}
+    {Node.js, Express, React, Tailwind CSS}
+    \resumeItemListStart
+        \item Built patient/doctor/admin portals for appointment scheduling
+        \item Developed medical profile management features
+    \resumeItemListEnd
+    
+    \resumeProject
+    {AI Chatbot with Gemini API | \href{https://github.com/eabhi-me/mini-chatbot}{GitHub} | \href{https://mini-chatbot-8gul.onrender.com/}{Render}}{Conversational AI chatbot}{Nov 2024}
+    {Node.js, Express, React, Gemini API}
+    
+    \resumeProject
+      {Object Detection using YOLO and OpenCV  | \href{https://github.com/eabhi-me/ai-ml-block/tree/main/object-detection} {Github}} %Project Name
+      {Built a real-time object detection system using YOLOv8 and OpenCV} %Project Name, Location Name
+      {Mar - April 2025} %Event Dates
+      { Python, OpenCV,  YOLOv8}
+
+      \resumeItemListStart
+        \item { Project aimed at applications in surveillance, robotics, and smart automation}
+    \resumeItemListEnd
+    
+    \resumeProject
+    {Unmanned Aerial Vehicle - IoT | IIC SLIET}{Autonomous UAV for agriculture}{Nov 2024 – Ongoing}
+    {Linux (ROS), Python, LIDAR, Machine Learning}
+\end{itemize}
+
+%-----------SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=*]
+     \textbf{Languages:} C++, Python, C, JavaScript \\
+     \textbf{Frameworks:} Flask, RESTful APIs, FastAPI, Vue.js, TenserFlow, Keras, Skikit-Leran \\
+     \textbf{Tools:} Numpy, Pandas, Matplotlib, Seaborn, Git, Linux (Ubuntu), Bootstrap, Tailwind CSS, Celery\\
+     \textbf{Databases:} PostgreSQL, MongoDB, SQLite, Redis \\
+     \textbf{Cloud:} Google Cloud Console, Render \\
+      \textbf{Coursework:} Deep Learning, Machine Learning, DSA, OOPS, DBMS
+\end{itemize}
+%-----------EDUCATION-----------
+\section{Education}
+\begin{itemize}[leftmargin=*]
+    \resumeSubheading
+    {Sant Longowal Institute of Engineering and Technology}{CGPA: 9.18}
+    {Bachelor of Engineering in Computer Science}{Aug 2023 – Present}
+    
+    % \resumeSubheading
+    % {B Indian Senior Secondary School}{Percentage: 90, 92.2}
+    % {Secondary and Senior Secondary Education}{Aug 2018 – May 2022}
+\end{itemize}
+
+%-----------LEADERSHIP-----------
+\section{Leadership}
+\begin{itemize}[leftmargin=*]
+    \item Currently serving as \textbf{Website Head for Mavericks, SLIET}, where I manage and update the club’s \href{https://maverickssliet.in/}{website} and tech needs. Also working as \textbf{Chief Designer for Novine SVIESA}, the college's monthly magazine, handling layout design and visual content. Both roles have strengthened my skills in teamwork, design, and technical coordination.
+
+\end{itemize}
+
+%-----------ACHIEVEMENTS-----------
+\section{Achievements}
+\begin{itemize}[leftmargin=*]
+    \item Won 2nd Prize in Electronica at TechFest SLIET 2024 for an \textbf{IoT-based Remote along with voice controlled Car} project, showcasing the practical application of embedded systems. Also earned the \href{https://badgr.com/public/assertions/l1La9ppCQk6Q2mWFipmvFg}{\textbf{Postman API Fundamentals Student Expert}}
+     certification in November 2024, demonstrating strong API testing and integration skills. Contributed to open-source projects as part of \textbf{GirlScript Summer of Code 2024}.
+
+% \section*{Certifications}
+% - Postman API Fundamentals Student Expert – Nov 2024  
+% - GGSOC 2024 Contributor – GirlScript Summer of Code
+\end{document}
+
+

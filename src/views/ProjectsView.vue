@@ -21,8 +21,8 @@
               <div class="project-placeholder">🧠</div>
               <div class="project-overlay">
                 <div class="project-links">
-                  <a href="#" class="project-link">Live Demo</a>
-                  <a href="#" class="project-link">GitHub</a>
+                  <a href="https://quiz-master-dot-velvety-ring-456112-u3.el.r.appspot.com/" class="project-link">Live Demo</a>
+                  <a href="https://github.com/eabhi-me/quiz-master-prep" class="project-link">GitHub</a>
                 </div>
               </div>
             </div>
@@ -57,8 +57,8 @@
               <div class="project-placeholder">🏥</div>
               <div class="project-overlay">
                 <div class="project-links">
-                  <a href="#" class="project-link">Live Demo</a>
-                  <a href="#" class="project-link">GitHub</a>
+                  <a href="https://medecro-health-hack.vercel.app/" class="project-link">Live Demo</a>
+                  <a href="https://github.com/eabhi-me/medecro-health-hack" class="project-link">GitHub</a>
                 </div>
               </div>
             </div>
