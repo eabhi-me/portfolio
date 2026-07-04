@@ -318,7 +318,7 @@ export default {
 .github-header {
   padding: 5rem 0;
   text-align: center;
-  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  background: transparent;
   position: relative;
   overflow: hidden;
 }
@@ -409,7 +409,7 @@ export default {
 }
 
 .btn-secondary {
-  background: white;
+  background: rgba(255,255,255,0.03);
   color: var(--color-text);
   border: 2px solid var(--color-border);
   box-shadow: var(--shadow-md);
@@ -463,7 +463,7 @@ export default {
 }
 
 .stat-widget {
-  background: white;
+  background: rgba(255,255,255,0.03);
   border-radius: 24px;
   padding: 2.5rem;
   box-shadow: var(--shadow-lg);
@@ -760,7 +760,7 @@ export default {
 }
 
 .activity-item:hover {
-  background: white;
+  background: rgba(255,255,255,0.03);
   border-color: var(--color-primary);
   transform: translateX(8px);
   box-shadow: var(--shadow-md);

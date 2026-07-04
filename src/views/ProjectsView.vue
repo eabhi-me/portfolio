@@ -321,7 +321,7 @@ export default {
 .projects-hero {
   padding: 6rem 0;
 
-  color: rgb(5, 5, 5);
+  color: #ffffff;
   text-align: center;
   width: 100%;
   min-height: 60vh;
@@ -368,8 +368,8 @@ export default {
   font-weight: 800;
   text-align: center;
   margin-bottom: 4rem;
-  color: #2c3e50;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #ffffff;
+  background: var(--grad-main);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -378,7 +378,7 @@ export default {
 /* Featured Projects */
 .featured-projects {
   padding: 7rem 0;
-  background: white;
+  background: rgba(255,255,255,0.03);
   width: 100%;
 }
 
@@ -418,7 +418,7 @@ export default {
   height: 400px;
   width: 100%;
   border-radius: 25px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--grad-main);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -487,7 +487,7 @@ export default {
 .project-content h3 {
   font-size: 2.8rem;
   font-weight: 800;
-  color: #2c3e50;
+  color: #ffffff;
   margin-bottom: 2rem;
   line-height: 1.2;
 }
@@ -495,7 +495,7 @@ export default {
 .project-content p {
   font-size: 1.3rem;
   line-height: 1.9;
-  color: #5a6c7d;
+  color: var(--text-secondary);
   margin-bottom: 2.5rem;
 }
 
@@ -507,7 +507,7 @@ export default {
 }
 
 .tech-tag {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--grad-main);
   color: white;
   padding: 0.75rem 1.5rem;
   border-radius: 25px;
@@ -523,7 +523,7 @@ export default {
 }
 
 .project-features {
-  background: #f8f9fa;
+  background: rgba(255,255,255,0.03);
   padding: 2rem;
   border-radius: 15px;
   border-left: 4px solid #667eea;
@@ -532,7 +532,7 @@ export default {
 .project-features h4 {
   font-size: 1.3rem;
   font-weight: 700;
-  color: #2c3e50;
+  color: #ffffff;
   margin-bottom: 1rem;
 }
 
@@ -543,7 +543,7 @@ export default {
 
 .project-features li {
   padding: 0.75rem 0;
-  color: #5a6c7d;
+  color: var(--text-secondary);
   position: relative;
   padding-left: 2rem;
   font-size: 1.05rem;
@@ -559,7 +559,7 @@ export default {
   content: '✓';
   position: absolute;
   left: 0;
-  color: #667eea;
+  color: #a78bfa;
   font-weight: bold;
   font-size: 1.2rem;
   width: 1.5rem;
@@ -574,7 +574,7 @@ export default {
 /* All Projects */
 .all-projects {
   padding: 8rem 0;
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background: transparent;
   width: 100%;
 }
 
@@ -595,8 +595,8 @@ export default {
 }
 
 .filter-tab {
-  background: white;
-  color: #667eea;
+  background: rgba(255,255,255,0.03);
+  color: #a78bfa;
   border: 3px solid #667eea;
   padding: 1.2rem 2.5rem;
   border-radius: 35px;
@@ -625,7 +625,7 @@ export default {
 }
 
 .project-card {
-  background: white;
+  background: rgba(255,255,255,0.03);
   border-radius: 25px;
   overflow: hidden;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
@@ -642,7 +642,7 @@ export default {
 .card-image {
   position: relative;
   height: 250px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--grad-main);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -706,13 +706,13 @@ export default {
 .card-content h3 {
   font-size: 1.6rem;
   font-weight: 800;
-  color: #2c3e50;
+  color: #ffffff;
   margin-bottom: 1.2rem;
   line-height: 1.3;
 }
 
 .card-content p {
-  color: #5a6c7d;
+  color: var(--text-secondary);
   line-height: 1.8;
   margin-bottom: 1.8rem;
   font-size: 1.05rem;
@@ -727,8 +727,8 @@ export default {
 }
 
 .tech-badge {
-  background: linear-gradient(135deg, #e9ecef 0%, #f8f9fa 100%);
-  color: #495057;
+  background: rgba(255,255,255,0.06);
+  color: var(--text-secondary);
   padding: 0.4rem 1rem;
   border-radius: 20px;
   font-size: 0.85rem;
@@ -738,7 +738,7 @@ export default {
 }
 
 .tech-badge:hover {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--grad-main);
   color: white;
   transform: translateY(-2px);
 }
@@ -773,7 +773,7 @@ export default {
 /* Call to Action */
 .projects-cta {
   padding: 6rem 0;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--grad-main);
   color: white;
   text-align: center;
 }

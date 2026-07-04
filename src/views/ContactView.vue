@@ -383,13 +383,13 @@ export default {
   font-weight: 600;
   text-align: center;
   margin-bottom: 3rem;
-  color: #2c3e50;
+  color: #ffffff;
 }
 
 /* Contact Content */
 .contact-content {
   padding: 5rem 0;
-  background: white;
+  background: transparent;
 }
 
 .contact-grid {
@@ -402,14 +402,14 @@ export default {
 .contact-info h2 {
   font-size: 2rem;
   font-weight: 600;
-  color: #2c3e50;
+  color: #ffffff;
   margin-bottom: 1.5rem;
 }
 
 .contact-description {
   font-size: 1.1rem;
   line-height: 1.8;
-  color: #5a6c7d;
+  color: var(--text-secondary);
   margin-bottom: 2.5rem;
 }
 
@@ -423,7 +423,7 @@ export default {
   gap: 1rem;
   padding: 1.5rem;
   margin-bottom: 1rem;
-  background: #f8f9fa;
+  background: rgba(255,255,255,0.03);
   border-radius: 15px;
   transition: transform 0.3s ease;
 }
@@ -442,18 +442,18 @@ export default {
 .method-content h3 {
   font-size: 1.1rem;
   font-weight: 600;
-  color: #2c3e50;
+  color: #ffffff;
   margin-bottom: 0.25rem;
 }
 
 .method-content p {
-  color: #667eea;
+  color: #a78bfa;
   font-weight: 500;
   margin-bottom: 0.25rem;
 }
 
 .contact-link {
-  color: #667eea;
+  color: #a78bfa;
   font-weight: 500;
   text-decoration: none;
   transition: all 0.3s ease;
@@ -476,7 +476,7 @@ export default {
 }
 
 .method-note {
-  color: #7f8c8d;
+  color: var(--text-muted);
   font-size: 0.9rem;
 }
 
@@ -490,7 +490,7 @@ export default {
 .availability h3 {
   font-size: 1.2rem;
   font-weight: 600;
-  color: #2c3e50;
+  color: #ffffff;
   margin-bottom: 1rem;
 }
 
@@ -522,14 +522,14 @@ export default {
 }
 
 .availability-note {
-  color: #5a6c7d;
+  color: var(--text-secondary);
   font-size: 0.95rem;
   line-height: 1.6;
 }
 
 /* Contact Form */
 .contact-form-container {
-  background: #f8f9fa;
+  background: rgba(255,255,255,0.03);
   padding: 2.5rem;
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -538,7 +538,7 @@ export default {
 .contact-form h2 {
   font-size: 1.8rem;
   font-weight: 600;
-  color: #2c3e50;
+  color: #ffffff;
   margin-bottom: 2rem;
   text-align: center;
 }
@@ -550,7 +550,7 @@ export default {
 .form-group label {
   display: block;
   font-weight: 600;
-  color: #2c3e50;
+  color: #ffffff;
   margin-bottom: 0.5rem;
 }
 
@@ -559,7 +559,7 @@ export default {
 .form-textarea {
   width: 100%;
   padding: 1rem;
-  border: 2px solid #e9ecef;
+  border: 2px solid rgba(255,255,255,0.08);
   border-radius: 10px;
   font-size: 1rem;
   transition:
@@ -572,7 +572,7 @@ export default {
 .form-select:focus,
 .form-textarea:focus {
   outline: none;
-  border-color: #667eea;
+  border-color: #a78bfa;
   box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
 }
 
@@ -596,7 +596,7 @@ export default {
 .checkbox-custom {
   width: 20px;
   height: 20px;
-  border: 2px solid #e9ecef;
+  border: 2px solid rgba(255,255,255,0.08);
   border-radius: 4px;
   position: relative;
   transition: all 0.3s ease;
@@ -604,7 +604,7 @@ export default {
 
 .checkbox-input:checked + .checkbox-custom {
   background: #667eea;
-  border-color: #667eea;
+  border-color: #a78bfa;
 }
 
 .checkbox-input:checked + .checkbox-custom::after {
@@ -664,7 +664,7 @@ export default {
 /* Additional Info */
 .additional-info {
   padding: 5rem 0;
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background: transparent;
 }
 
 .info-grid {
@@ -674,7 +674,7 @@ export default {
 }
 
 .info-item {
-  background: white;
+  background: transparent;
   padding: 2rem;
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -694,7 +694,7 @@ export default {
 .info-item h3 {
   font-size: 1.3rem;
   font-weight: 600;
-  color: #2c3e50;
+  color: #ffffff;
   margin-bottom: 1rem;
   text-align: center;
 }
@@ -706,7 +706,7 @@ export default {
 
 .info-item li {
   padding: 0.5rem 0;
-  color: #5a6c7d;
+  color: var(--text-secondary);
   position: relative;
   padding-left: 1.5rem;
   line-height: 1.6;
@@ -716,12 +716,12 @@ export default {
   content: '•';
   position: absolute;
   left: 0;
-  color: #667eea;
+  color: #a78bfa;
   font-weight: bold;
 }
 
 .inline-link {
-  color: #667eea;
+  color: #a78bfa;
   text-decoration: none;
   font-weight: 600;
   transition: all 0.3s ease;
@@ -742,7 +742,7 @@ export default {
 /* FAQ Section */
 .faq-section {
   padding: 5rem 0;
-  background: white;
+  background: transparent;
 }
 
 .faq-list {
@@ -752,26 +752,26 @@ export default {
 
 .faq-item {
   margin-bottom: 1rem;
-  border: 1px solid #e9ecef;
+  border: 1px solid rgba(255,255,255,0.06);
   border-radius: 10px;
   overflow: hidden;
   transition: all 0.3s ease;
 }
 
 .faq-item.active {
-  border-color: #667eea;
+  border-color: #a78bfa;
   box-shadow: 0 5px 15px rgba(102, 126, 234, 0.1);
 }
 
 .faq-question {
   width: 100%;
   padding: 1.5rem;
-  background: #f8f9fa;
+  background: rgba(255,255,255,0.03);
   border: none;
   text-align: left;
   font-size: 1.1rem;
   font-weight: 600;
-  color: #2c3e50;
+  color: #ffffff;
   cursor: pointer;
   display: flex;
   justify-content: space-between;
@@ -797,8 +797,8 @@ export default {
 
 .faq-answer {
   padding: 1.5rem;
-  background: white;
-  color: #5a6c7d;
+  background: transparent;
+  color: var(--text-secondary);
   line-height: 1.7;
 }
 

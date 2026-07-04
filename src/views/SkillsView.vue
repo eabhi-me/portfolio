@@ -537,13 +537,13 @@ export default {
   font-weight: 600;
   text-align: center;
   margin-bottom: 3rem;
-  color: #2c3e50;
+  color: #ffffff;
 }
 
 /* Skills Overview */
 .skills-overview {
   padding: 5rem 0;
-  background: white;
+  background: transparent;
 }
 
 .overview-grid {
@@ -556,13 +556,13 @@ export default {
   text-align: center;
   padding: 2rem;
   border-radius: 15px;
-  background: #f8f9fa;
+  background: rgba(255,255,255,0.03);
   border: 2px solid transparent;
   transition: all 0.3s ease;
 }
 
 .overview-item:hover {
-  border-color: #667eea;
+  border-color: #a78bfa;
   transform: translateY(-5px);
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
 }
@@ -575,19 +575,19 @@ export default {
 .overview-item h3 {
   font-size: 1.3rem;
   font-weight: 600;
-  color: #2c3e50;
+  color: #ffffff;
   margin-bottom: 1rem;
 }
 
 .overview-item p {
-  color: #5a6c7d;
+  color: var(--text-secondary);
   line-height: 1.6;
   margin-bottom: 1rem;
 }
 
 .skill-count {
   display: inline-block;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--grad-main);
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 20px;
@@ -598,7 +598,7 @@ export default {
 /* Technical Skills */
 .technical-skills {
   padding: 5rem 0;
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background: transparent;
 }
 
 .skills-tabs {
@@ -610,9 +610,9 @@ export default {
 }
 
 .skill-tab {
-  background: white;
-  color: #667eea;
-  border: 2px solid #667eea;
+  background: transparent;
+  color: #a78bfa;
+  border: 2px solid #7c3aed;
   padding: 1rem 1.5rem;
   border-radius: 25px;
   cursor: pointer;
@@ -653,12 +653,12 @@ export default {
 .category-header h3 {
   font-size: 1.8rem;
   font-weight: 600;
-  color: #2c3e50;
+  color: #ffffff;
   margin-bottom: 0.5rem;
 }
 
 .category-header p {
-  color: #5a6c7d;
+  color: var(--text-secondary);
   font-size: 1.1rem;
 }
 
@@ -669,7 +669,7 @@ export default {
 }
 
 .skill-item {
-  background: white;
+  background: transparent;
   padding: 2rem;
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -696,11 +696,11 @@ export default {
 .skill-name {
   font-size: 1.2rem;
   font-weight: 600;
-  color: #2c3e50;
+  color: #ffffff;
 }
 
 .skill-level {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--grad-main);
   color: white;
   padding: 0.25rem 0.75rem;
   border-radius: 15px;
@@ -709,14 +709,14 @@ export default {
 }
 
 .skill-experience {
-  color: #7f8c8d;
+  color: var(--text-muted);
   font-size: 0.9rem;
   font-weight: 500;
 }
 
 .skill-bar {
   height: 8px;
-  background: #e9ecef;
+  background: rgba(255,255,255,0.04);
   border-radius: 10px;
   overflow: hidden;
   margin-bottom: 1rem;
@@ -733,7 +733,7 @@ export default {
 }
 
 .skill-progress.intermediate {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--grad-main);
 }
 
 .skill-progress.beginner {
@@ -741,7 +741,7 @@ export default {
 }
 
 .skill-description {
-  color: #5a6c7d;
+  color: var(--text-secondary);
   line-height: 1.6;
   margin-bottom: 1rem;
   font-size: 0.95rem;
@@ -753,7 +753,7 @@ export default {
 }
 
 .projects-label {
-  color: #7f8c8d;
+  color: var(--text-muted);
   font-size: 0.9rem;
   font-weight: 500;
   margin-bottom: 0.5rem;
@@ -767,7 +767,7 @@ export default {
 }
 
 .project-tag {
-  background: #e9ecef;
+  background: rgba(255,255,255,0.04);
   color: #495057;
   padding: 0.25rem 0.5rem;
   border-radius: 12px;
@@ -778,7 +778,7 @@ export default {
 /* Certifications */
 .certifications {
   padding: 5rem 0;
-  background: white;
+  background: transparent;
 }
 
 .cert-grid {
@@ -792,7 +792,7 @@ export default {
   text-align: center;
   padding: 2rem;
   border-radius: 15px;
-  background: #f8f9fa;
+  background: rgba(255,255,255,0.03);
   transition: transform 0.3s ease;
 }
 
@@ -809,7 +809,7 @@ export default {
 .cert-item h3 {
   font-size: 1.3rem;
   font-weight: 600;
-  color: #2c3e50;
+  color: #ffffff;
   margin-bottom: 1rem;
 }
 
@@ -821,7 +821,7 @@ export default {
 
 .cert-item li {
   padding: 0.5rem 0;
-  color: #5a6c7d;
+  color: var(--text-secondary);
   position: relative;
   padding-left: 1.5rem;
 }
@@ -830,14 +830,14 @@ export default {
   content: '✓';
   position: absolute;
   left: 0;
-  color: #667eea;
+  color: #a78bfa;
   font-weight: bold;
 }
 
 /* Skills Timeline */
 .skills-timeline {
   padding: 5rem 0;
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background: transparent;
 }
 
 .timeline {
@@ -853,7 +853,7 @@ export default {
   top: 0;
   bottom: 0;
   width: 2px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--grad-main);
 }
 
 .timeline-item {
@@ -868,14 +868,14 @@ export default {
   top: 0;
   width: 20px;
   height: 20px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--grad-main);
   border-radius: 50%;
   border: 4px solid white;
   box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.2);
 }
 
 .timeline-content {
-  background: white;
+  background: transparent;
   padding: 2rem;
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -884,12 +884,12 @@ export default {
 .timeline-content h3 {
   font-size: 1.3rem;
   font-weight: 600;
-  color: #2c3e50;
+  color: #ffffff;
   margin-bottom: 0.5rem;
 }
 
 .timeline-period {
-  color: #667eea;
+  color: #a78bfa;
   font-weight: 500;
   font-size: 0.9rem;
   margin-bottom: 1rem;
@@ -897,7 +897,7 @@ export default {
 }
 
 .timeline-content p {
-  color: #5a6c7d;
+  color: var(--text-secondary);
   line-height: 1.6;
   margin-bottom: 1rem;
 }
@@ -909,7 +909,7 @@ export default {
 }
 
 .timeline-skill {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--grad-main);
   color: white;
   padding: 0.25rem 0.75rem;
   border-radius: 15px;

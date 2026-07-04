@@ -329,11 +329,11 @@ Error loading resume.latex file from assets directory.
 /* LaTeX Section */
 .latex-section {
   padding: 4rem 0;
-  background: #f8f9fa;
+  background: rgba(255,255,255,0.03);
 }
 
 .latex-container {
-  background: white;
+  background: rgba(255,255,255,0.03);
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -344,7 +344,7 @@ Error loading resume.latex file from assets directory.
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 2rem;
-  background: #2c3e50;
+  background: #161827;
   color: black;
 }
 
@@ -384,7 +384,7 @@ Error loading resume.latex file from assets directory.
 .latex-error {
   padding: 3rem 2rem;
   text-align: center;
-  background: #f8f9fa;
+  background: rgba(255,255,255,0.03);
 }
 
 .loading-spinner {
@@ -432,8 +432,8 @@ Error loading resume.latex file from assets directory.
   display: block;
   padding: 2rem;
   margin: 0;
-  background: #f8f9fa;
-  color: #2c3e50;
+  background: rgba(255,255,255,0.03);
+  color: #ffffff;
   font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
   font-size: 0.85rem;
   line-height: 1.5;
@@ -444,7 +444,7 @@ Error loading resume.latex file from assets directory.
 /* Resume Preview */
 .resume-preview {
   padding: 5rem 0;
-  background: white;
+  background: rgba(255,255,255,0.03);
 }
 
 .preview-container {
@@ -453,8 +453,8 @@ Error loading resume.latex file from assets directory.
 }
 
 .resume-document {
-  background: white;
-  border: 1px solid #e9ecef;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.06);
   border-radius: 10px;
   padding: 3rem;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -466,13 +466,13 @@ Error loading resume.latex file from assets directory.
   text-align: center;
   margin-bottom: 2rem;
   padding-bottom: 1.5rem;
-  border-bottom: 2px solid #2c3e50;
+  border-bottom: 2px solid rgba(255,255,255,0.08);
 }
 
 .resume-doc-header h1 {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #2c3e50;
+  color: #ffffff;
   margin-bottom: 1rem;
 }
 
@@ -482,7 +482,7 @@ Error loading resume.latex file from assets directory.
   justify-content: center;
   flex-wrap: wrap;
   font-size: 0.95rem;
-  color: #5a6c7d;
+  color: var(--text-secondary);
 }
 
 .resume-section {
@@ -492,7 +492,7 @@ Error loading resume.latex file from assets directory.
 .resume-section h2 {
   font-size: 1.4rem;
   font-weight: 700;
-  color: #2c3e50;
+  color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 1rem;
@@ -515,23 +515,23 @@ Error loading resume.latex file from assets directory.
 
 .item-header strong {
   font-size: 1.1rem;
-  color: #2c3e50;
+  color: #ffffff;
 }
 
 .date {
   font-style: italic;
-  color: #667eea;
+  color: #a78bfa;
   font-weight: 500;
 }
 
 .tech-stack {
   font-style: italic;
-  color: #667eea;
+  color: #a78bfa;
   font-size: 0.9rem;
 }
 
 .item-details {
-  color: #5a6c7d;
+  color: var(--text-secondary);
   margin-bottom: 0.5rem;
   font-style: italic;
 }
@@ -543,7 +543,7 @@ Error loading resume.latex file from assets directory.
 
 .resume-item li {
   margin-bottom: 0.3rem;
-  color: #5a6c7d;
+  color: var(--text-secondary);
 }
 
 .skills-grid {
@@ -559,12 +559,12 @@ Error loading resume.latex file from assets directory.
 }
 
 .skill-category strong {
-  color: #2c3e50;
+  color: #ffffff;
   min-width: 150px;
 }
 
 .skill-category span {
-  color: #5a6c7d;
+  color: var(--text-secondary);
 }
 
 .achievements-list {
@@ -574,13 +574,13 @@ Error loading resume.latex file from assets directory.
 
 .achievements-list li {
   margin-bottom: 0.5rem;
-  color: #5a6c7d;
+  color: var(--text-secondary);
 }
 
 /* Button Styles */
 .btn-primary {
   background: linear-gradient(135deg, #ffeaa7 0%, #fab1a0 100%);
-  color: #2c3e50;
+  color: #ffffff;
   padding: 1rem 2rem;
   border-radius: 50px;
   text-decoration: none;
@@ -596,7 +596,7 @@ Error loading resume.latex file from assets directory.
 .btn-primary:hover {
   transform: translateY(-3px);
   box-shadow: 0 8px 25px rgba(255, 171, 160, 0.4);
-  color: #2c3e50;
+  color: #ffffff;
 }
 
 .btn-primary:disabled {
